@@ -1,0 +1,50 @@
+﻿body
+{
+    background-image:url("images/feensh.jpg");
+    margin: 0;
+    padding: 0;
+}
+
+#page
+{
+
+    position:relative;
+    width:900px;
+    margin: 0 auto;
+}
+#header 
+{
+    background-color:yellow;
+}
+#header h1 
+{
+    display: inline-block;
+    position:relative;
+    top: -35px;
+}
+
+#header h2
+{
+    position:absolute;
+    right: 20px;
+    top:20px;
+}
+#menu {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    background-color: yellow;
+}
+#content
+{
+    min-height:1000px;
+    background-color:aqua;
+}
+#footer
+{
+    width:900px;
+    background-color: yellow;
+    position:fixed;
+    bottom:0px;
+    text-align:center;
+}
